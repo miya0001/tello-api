@@ -23,7 +23,6 @@ http.createServer((req, res) => {
 }).listen(8080);
 
 function sendCommand(data) {
-  console.log(data.queryResult.intent.displayName)
   switch (data.queryResult.intent.displayName) {
     case "takeoff":
       sendMessage('command');
