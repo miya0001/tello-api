@@ -1,0 +1,87 @@
+{
+  "responseId": "d3fd0dc3-fff6-4d52-9c14-beeeea7c4825",
+  "queryResult": {
+    "queryText": "11 cm 上昇して",
+    "parameters": {
+      "number": 11.0
+    },
+    "allRequiredParamsPresent": true,
+    "fulfillmentText": "11 cm 上昇します",
+    "fulfillmentMessages": [{
+      "text": {
+        "text": ["11 cm 上昇します"]
+      }
+    }],
+    "outputContexts": [{
+      "name": "projects/newagent-264a0/agent/sessions/1525089856643/contexts/actions_capability_audio_output",
+      "parameters": {
+        "number": 11.0,
+        "number.original": "11"
+      }
+    }, {
+      "name": "projects/newagent-264a0/agent/sessions/1525089856643/contexts/google_assistant_input_type_voice",
+      "parameters": {
+        "number": 11.0,
+        "number.original": "11"
+      }
+    }, {
+      "name": "projects/newagent-264a0/agent/sessions/1525089856643/contexts/actions_capability_media_response_audio",
+      "parameters": {
+        "number": 11.0,
+        "number.original": "11"
+      }
+    }],
+    "intent": {
+      "name": "projects/newagent-264a0/agent/intents/75823b7d-f8d7-4812-94be-dc71f1bf270f",
+      "displayName": "takeoff"
+    },
+    "intentDetectionConfidence": 0.77,
+    "diagnosticInfo": {
+    },
+    "languageCode": "ja"
+  },
+  "originalDetectIntentRequest": {
+    "source": "google",
+    "version": "2",
+    "payload": {
+      "isInSandbox": true,
+      "surface": {
+        "capabilities": [{
+          "name": "actions.capability.MEDIA_RESPONSE_AUDIO"
+        }, {
+          "name": "actions.capability.AUDIO_OUTPUT"
+        }]
+      },
+      "inputs": [{
+        "rawInputs": [{
+          "query": "11 cm 上昇して",
+          "inputType": "VOICE"
+        }],
+        "arguments": [{
+          "rawText": "11 cm 上昇して",
+          "textValue": "11 cm 上昇して",
+          "name": "text"
+        }],
+        "intent": "actions.intent.TEXT"
+      }],
+      "user": {
+        "lastSeen": "2018-04-30T11:26:23Z",
+        "locale": "ja-JP",
+        "userId": "ABwppHFGm97Y6CzD6PYHEq89w41on0zhB5VdVCBV7UdNyN4ijnBGIVayIEFi_fEXzoRu6cBySr7tgXauDv4"
+      },
+      "conversation": {
+        "conversationId": "1525089856643",
+        "type": "ACTIVE",
+        "conversationToken": "[]"
+      },
+      "availableSurfaces": [{
+        "capabilities": [{
+          "name": "actions.capability.SCREEN_OUTPUT"
+        }, {
+          "name": "actions.capability.AUDIO_OUTPUT"
+        }]
+      }]
+    }
+  },
+  "session": "projects/newagent-264a0/agent/sessions/1525089856643"
+}
