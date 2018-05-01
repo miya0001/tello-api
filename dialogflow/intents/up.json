@@ -1,0 +1,37 @@
+{
+  "id": "75823b7d-f8d7-4812-94be-dc71f1bf270f",
+  "name": "up",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "f4a6cbad-18bd-4ee9-a707-cbcd07f3bfdb",
+          "required": false,
+          "dataType": "@sys.number",
+          "name": "number",
+          "value": "$number",
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "ja",
+          "speech": "$number cm 上昇します"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1525172042,
+  "fallbackIntent": false,
+  "events": []
+}

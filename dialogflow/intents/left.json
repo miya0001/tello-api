@@ -1,0 +1,36 @@
+{
+  "id": "c71ec0db-4bdc-434e-bc5b-d6ca8994edbb",
+  "name": "left",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "d2a67f4c-ddc3-462b-a4d7-274ce73728fd",
+          "dataType": "@sys.number",
+          "name": "number",
+          "value": "$number",
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "ja",
+          "speech": "左に $number cm 移動します"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1525173071,
+  "fallbackIntent": false,
+  "events": []
+}

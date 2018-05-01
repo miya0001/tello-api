@@ -1,0 +1,28 @@
+{
+  "id": "3ac10062-0181-4f32-a9ea-5a35079e0716",
+  "name": "land",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "ja",
+          "speech": "着陸します"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1525086785,
+  "fallbackIntent": false,
+  "events": []
+}

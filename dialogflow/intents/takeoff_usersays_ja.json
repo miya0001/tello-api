@@ -1,0 +1,38 @@
+[
+  {
+    "id": "48b23944-8f68-4d5f-ade2-11e3fe2de555",
+    "data": [
+      {
+        "text": "テイクオフ",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "3d7a9b31-caf6-4b3d-bb3a-9e7218756413",
+    "data": [
+      {
+        "text": "飛んでください",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1525029185
+  },
+  {
+    "id": "78ecfddd-e1b0-416a-91fa-2eea703cd2ef",
+    "data": [
+      {
+        "text": "離陸してださい",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1525029185
+  }
+]

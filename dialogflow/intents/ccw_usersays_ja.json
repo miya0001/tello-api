@@ -1,0 +1,90 @@
+[
+  {
+    "id": "5ba042f9-9982-4170-9a60-4df88949a5b0",
+    "data": [
+      {
+        "text": "左回りに",
+        "userDefined": false
+      },
+      {
+        "text": "10",
+        "alias": "number",
+        "meta": "@sys.number",
+        "userDefined": false
+      },
+      {
+        "text": "°回転",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1525177668
+  },
+  {
+    "id": "4991745c-3455-4140-9b5f-4383158b3956",
+    "data": [
+      {
+        "text": "反時計回りに",
+        "userDefined": false
+      },
+      {
+        "text": "10",
+        "alias": "number",
+        "meta": "@sys.number",
+        "userDefined": false
+      },
+      {
+        "text": "°回転",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1525177668
+  },
+  {
+    "id": "7933d8ea-ecef-49e1-ae29-175a114636f9",
+    "data": [
+      {
+        "text": "左回りに",
+        "userDefined": false
+      },
+      {
+        "text": "10",
+        "alias": "number",
+        "meta": "@sys.number",
+        "userDefined": false
+      },
+      {
+        "text": "°",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1525177668
+  },
+  {
+    "id": "0717c49d-c397-41ad-b069-b487d943a1d7",
+    "data": [
+      {
+        "text": "反時計回りに",
+        "userDefined": false
+      },
+      {
+        "text": "10",
+        "alias": "number",
+        "meta": "@sys.number",
+        "userDefined": false
+      },
+      {
+        "text": "°",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1525177668
+  }
+]

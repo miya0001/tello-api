@@ -1,0 +1,36 @@
+{
+  "id": "d2e0876d-9a85-4239-854f-394fb46c9257",
+  "name": "cw",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "ac9a99ee-7066-4017-99ec-b1217b512602",
+          "dataType": "@sys.number",
+          "name": "number",
+          "value": "$number",
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "ja",
+          "speech": "時計回りに $number 度回転します"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1525177556,
+  "fallbackIntent": false,
+  "events": []
+}

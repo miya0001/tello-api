@@ -1,0 +1,33 @@
+{
+  "id": "2c25a219-78cc-4b31-a1ef-1591e38b9cce",
+  "name": "finish",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "ja",
+          "speech": [
+            "また遊んでください",
+            "ありがとうございました"
+          ]
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "google": false
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1525034224,
+  "fallbackIntent": false,
+  "events": []
+}

@@ -1,0 +1,112 @@
+[
+  {
+    "id": "b6f2e764-e0a4-4617-a7d3-20b539e5aa96",
+    "data": [
+      {
+        "text": "右回りに",
+        "userDefined": false
+      },
+      {
+        "text": "10",
+        "alias": "number",
+        "meta": "@sys.number",
+        "userDefined": false
+      },
+      {
+        "text": "°",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1525177556
+  },
+  {
+    "id": "a3f20ce8-d9d4-4296-bb85-ab81964f24bc",
+    "data": [
+      {
+        "text": "時計回りに",
+        "userDefined": false
+      },
+      {
+        "text": "10",
+        "alias": "number",
+        "meta": "@sys.number",
+        "userDefined": false
+      },
+      {
+        "text": "°",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1525177556
+  },
+  {
+    "id": "724c9cee-4b6c-4d20-9c80-19b6a372b188",
+    "data": [
+      {
+        "text": "右回りに",
+        "userDefined": false
+      },
+      {
+        "text": "10",
+        "alias": "number",
+        "meta": "@sys.number",
+        "userDefined": false
+      },
+      {
+        "text": "°回って",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1525177556
+  },
+  {
+    "id": "d187fe0d-039a-400f-a2e1-db57ca4ffcc4",
+    "data": [
+      {
+        "text": "右回りに",
+        "userDefined": false
+      },
+      {
+        "text": "10",
+        "alias": "number",
+        "meta": "@sys.number",
+        "userDefined": false
+      },
+      {
+        "text": "°回転して",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1525177556
+  },
+  {
+    "id": "1d80b987-7dc5-45de-9dfa-48da85d08857",
+    "data": [
+      {
+        "text": "時計回りに",
+        "userDefined": false
+      },
+      {
+        "text": "10",
+        "alias": "number",
+        "meta": "@sys.number",
+        "userDefined": false
+      },
+      {
+        "text": "°回転して",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1525177556
+  }
+]

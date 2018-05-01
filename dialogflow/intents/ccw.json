@@ -1,0 +1,36 @@
+{
+  "id": "f1deffff-9078-4aea-a93f-77f583f8084c",
+  "name": "ccw",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "a8cd96bf-bd7a-48d7-be0c-72999b11c2cc",
+          "dataType": "@sys.number",
+          "name": "number",
+          "value": "$number",
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "ja",
+          "speech": "反時計回りに $number 度回転します"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1525177668,
+  "fallbackIntent": false,
+  "events": []
+}

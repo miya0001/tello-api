@@ -1,0 +1,20 @@
+[
+  {
+    "id": "3083ea43-aa14-4dd6-818a-a25f4dccab73",
+    "data": [
+      {
+        "text": "10",
+        "alias": "number",
+        "meta": "@sys.number",
+        "userDefined": false
+      },
+      {
+        "text": " cm 左に",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1525173071
+  }
+]

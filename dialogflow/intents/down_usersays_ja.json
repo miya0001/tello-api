@@ -1,0 +1,55 @@
+[
+  {
+    "id": "f736e506-a5a3-410d-a25b-f87e92fe988a",
+    "data": [
+      {
+        "text": "10",
+        "alias": "number",
+        "meta": "@sys.number",
+        "userDefined": false
+      },
+      {
+        "text": " cm 下降して",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1525172622
+  },
+  {
+    "id": "9a0d4efc-ec9b-4a40-b9f2-a4e2e5f0e72d",
+    "data": [
+      {
+        "text": "10",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": " cm 下がって",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1525172622
+  },
+  {
+    "id": "f0cc1640-b32a-46c2-bfc9-255196ec731d",
+    "data": [
+      {
+        "text": "10",
+        "alias": "number",
+        "meta": "@sys.number",
+        "userDefined": false
+      },
+      {
+        "text": " cm 下に",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1525172622
+  }
+]

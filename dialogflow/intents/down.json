@@ -1,0 +1,37 @@
+{
+  "id": "2a55f952-fc12-430a-87b4-9dad4067a016",
+  "name": "down",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "358ea4f8-d4dd-4dc0-b4c1-b2afbfbae5ee",
+          "required": false,
+          "dataType": "@sys.number",
+          "name": "number",
+          "value": "$number",
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "ja",
+          "speech": "$number cm 下降します"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1525172653,
+  "fallbackIntent": false,
+  "events": []
+}
