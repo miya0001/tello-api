@@ -22,19 +22,38 @@ http.createServer((req, res) => {
   res.end('{"status": "OK"}');
 }).listen(8080);
 
-function sendCommand(data) {
-  switch (data.queryResult.intent.displayName) {
-    case "takeoff":
-      sendMessage('command');
-      sendMessage('takeoff');
-      break;
-    case "land":
-      sendMessage('land');
-      break;
+const sendCommand = (data) => {
+  if (data.queryResult) {
+    var n = 0;
+    if (data.queryResult.parameters.number) {
+      n = parseInt(data.queryResult.parameters.number);
+    }
+    switch (data.queryResult.intent.displayName) {
+      case "takeoff":
+        sendMessage('command');
+        sendMessage('takeoff');
+        break;
+      case "land":
+        sendMessage('land');
+        break;
+      case "up":
+        sendMessage('up ' + n);
+        break;
+      case "down":
+        sendMessage('down ' + n);
+        break;
+      case "cw":
+        sendMessage('cw ' + n);
+        break;
+      case "ccw":
+        sendMessage('ccw ' + n);
+        break;
+    }
   }
 }
 
-function sendMessage(command) {
+const sendMessage = (command) => {
+  console.log(command);
 	const message = new Buffer(command);
 	client.send(message, 0, message.length, PORT, HOST, function(err, bytes) {
 		if (err) throw err;
