@@ -54,8 +54,8 @@ const sendCommand = (data) => {
 
 const sendMessage = (command) => {
   console.log(command);
-	const message = new Buffer(command);
-	client.send(message, 0, message.length, PORT, HOST, function(err, bytes) {
-		if (err) throw err;
-	});
+  const message = new Buffer(command);
+  client.send(message, 0, message.length, PORT, HOST, function(err, bytes) {
+    if (err) throw err;
+  });
 }
